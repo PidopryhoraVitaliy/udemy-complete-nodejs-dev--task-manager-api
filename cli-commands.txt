@@ -13,6 +13,10 @@ heroku keys:add
 heroku create pvv-weather-app
 https://pvv-weather-app.herokuapp.com/ | https://git.heroku.com/pvv-weather-app.git
 git push heroku main
+https://pvv-task-manager.herokuapp.com/ | https://git.heroku.com/pvv-task-manager.git
+heroku config:set key=value
+heroku config:unset key
+heroku config   
 
 # mongodb
 /mongodb/bin/mongod.exe --dbpath=/mongodb-data
